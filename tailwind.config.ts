@@ -67,7 +67,11 @@ export default {
 					low: '#E5F6FD',
 					medium: '#FFF8E5',
 					high: '#FFEFEF',
-					complete: '#F0F4F8'
+					complete: '#F0F4F8',
+          lowDark: '#1A2A36',
+          mediumDark: '#2E2A1A',
+          highDark: '#362020',
+          completeDark: '#1A232C'
 				}
 			},
 			borderRadius: {

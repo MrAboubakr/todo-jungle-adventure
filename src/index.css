@@ -93,12 +93,12 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground transition-colors;
     font-family: 'Inter', sans-serif;
   }
 
   .glass-morphism {
-    @apply bg-white bg-opacity-70 backdrop-blur-lg border border-white border-opacity-20 shadow-sm;
+    @apply bg-white bg-opacity-70 backdrop-blur-lg border border-white border-opacity-20 shadow-sm dark:bg-gray-800 dark:bg-opacity-70 dark:border-gray-700 dark:border-opacity-20;
   }
   
   .task-transition {
